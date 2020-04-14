@@ -5,7 +5,7 @@
 #import "ArtemisEntitySystem.h"
 #import "ArtemisEntityObserver.h"
 
-#import "ArtemisWorld_Debug.h"
+#import "ObjectiveCExtensions/ArtemisWorld_Debug.h"
 
 typedef void (^Performer)(NSObject<ArtemisEntityObserver>* observer, ArtemisEntity* entity);
 

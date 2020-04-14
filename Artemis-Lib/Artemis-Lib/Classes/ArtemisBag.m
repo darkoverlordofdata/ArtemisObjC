@@ -1,5 +1,8 @@
 #import "ArtemisBag.h"
 
+#define TRUE (BOOL)1
+#define FALSE (BOOL)0
+
 @interface ArtemisBag()
 
 /** FIXME: not implemented as high performance yet */

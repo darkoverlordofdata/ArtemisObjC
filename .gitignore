@@ -20,6 +20,14 @@
 #########################
 
 #####
+# GNUstep temporary files that should never be committed
+#
+
+Artemis.framework
+obj
+derived_src
+
+#####
 # OS X temporary files that should never be committed
 #
 # c.f. http://www.westwind.com/reference/os-x/invisibles.html

@@ -2,6 +2,10 @@
  ARGH! not in Artemis, instead a Java 7 feature
  */
 #import <Foundation/Foundation.h>
+#import "CoreFoundation/CFBitVector.h"
+
+#define TRUE (BOOL)1
+#define FALSE (BOOL)0
 
 @interface ArtemisBitSet : NSObject
 
